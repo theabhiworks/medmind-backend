@@ -88,8 +88,5 @@ def chat():
 
 
 if __name__ == "__main__":
-    from dotenv import load_dotenv
-    load_dotenv()
     port = int(os.getenv("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-
