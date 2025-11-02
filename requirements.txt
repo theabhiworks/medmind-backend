@@ -1,7 +1,5 @@
 flask
 flask-cors
-gunicorn
 google-generativeai
 python-dotenv
-transformers
-torch
+gunicorn
